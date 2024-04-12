@@ -4,12 +4,10 @@ function _TaraxaLogo({
   width,
   height,
   fill,
-  className = '',
 }: {
   width?: number | string;
   height?: number | string;
   fill?: string;
-  className?: string;
 }) {
   return (
     <svg
